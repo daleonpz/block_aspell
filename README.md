@@ -9,7 +9,16 @@ Use [gnu aspell](http://aspell.net/) on a block of text from line N to M.
 ```
 
 - You need `aspell`
-- Just clone the repo  
+- How to install
+
+```sh
+$ git clone https://github.com/daleonpz/block_aspell.git
+$ cd block_aspell
+$ chmod +x block_aspell.sh
+$ export PATH="$PATH:YOURPATH"
+``` 
+
+- You can also add the path to your `.bashrc` to make it permanent
 
 
 # TODO
